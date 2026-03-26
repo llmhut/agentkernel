@@ -318,6 +318,6 @@ MIT — use it however you want. See [LICENSE](LICENSE) for details.
 
 If this project resonates with you, give it a ⭐ and join us in building the foundation of agentic AI.
 
-[⭐ Star on GitHub]() · [💬 Join Discord]() · [🐦 Follow on X]()
+[⭐ Star on GitHub](https://github.com/llmhut/agentkernel) · [💬 Join Discord](https://discord.gg/m5R88NkM) · [🐦 Follow on X]()
 
 </div>
