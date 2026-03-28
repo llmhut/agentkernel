@@ -1,13 +1,13 @@
-# Contributing to AgentKernel
+# Contributing to AgentVM
 
-First off — thank you! AgentKernel is built by the community and every contribution matters.
+First off — thank you! AgentVM is built by the community and every contribution matters.
 
 ## Quick Links
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Roadmap](ROADMAP.md)
 - [Architecture Docs](docs/architecture/)
-- [Open Issues](https://github.com/llmhut/agentkernel/issues)
+- [Open Issues](https://github.com/llmhut/agentvm/issues)
 
 ---
 
@@ -46,8 +46,8 @@ For significant changes, write an RFC in `docs/rfcs/`. Use the template at `docs
 
 ```bash
 # Clone the repo
-git clone https://github.com/llmhut/agentkernel.git
-cd agentkernel
+git clone https://github.com/llmhut/agentvm.git
+cd agentvm
 
 # Install dependencies
 npm install

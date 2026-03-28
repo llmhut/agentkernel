@@ -1,7 +1,7 @@
 /**
  * Example: Hello World
  *
- * The simplest possible AgentKernel usage — spawn an agent and run it.
+ * The simplest possible AgentVM usage — spawn an agent and run it.
  *
  * Run: npx tsx examples/hello-world.ts
  */
@@ -19,7 +19,7 @@ async function main() {
     handler: async (ctx) => {
       const name = ctx.input as string;
       ctx.emit('greeter:working', { name });
-      return `Hello, ${name}! Welcome to AgentKernel.`;
+      return `Hello, ${name}! Welcome to AgentVM.`;
     },
   });
 

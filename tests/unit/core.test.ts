@@ -47,7 +47,7 @@ describe('Agent', () => {
 describe('Kernel', () => {
   it('should create a kernel with default config', () => {
     const kernel = new Kernel();
-    expect(kernel.name).toBe('agentkernel');
+    expect(kernel.name).toBe('agentvm');
   });
 
   it('should create a kernel with custom name', () => {

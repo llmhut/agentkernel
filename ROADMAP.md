@@ -1,4 +1,4 @@
-# 🗺️ AgentKernel Roadmap
+# 🗺️ AgentVM Roadmap
 
 > **Building in public.** Every milestone, every decision, every trade-off — documented here.
 >
@@ -45,12 +45,12 @@
 **Deliverable:** Agents have isolated working memory and can share state through SharedMemory.
 
 #### M1.3 — CLI (Weeks 4–5)
-- [ ] `agentkernel init` — scaffold a new project
-- [ ] `agentkernel start` — start the kernel
-- [ ] `agentkernel spawn <agent>` — spawn an agent process
-- [ ] `agentkernel ps` — list running processes
-- [ ] `agentkernel kill <pid>` — terminate a process
-- [ ] `agentkernel logs <pid>` — stream process events
+- [ ] `agentvm init` — scaffold a new project
+- [ ] `agentvm start` — start the kernel
+- [ ] `agentvm spawn <agent>` — spawn an agent process
+- [ ] `agentvm ps` — list running processes
+- [ ] `agentvm kill <pid>` — terminate a process
+- [ ] `agentvm logs <pid>` — stream process events
 - [ ] Pretty terminal output with colors and tables
 
 **Deliverable:** Full CLI for managing agents from the terminal.
@@ -74,7 +74,7 @@
 
 ## Phase 2 — Ignition (v0.2.0)
 
-**Goal:** Tool routing, message passing, and scheduling turn AgentKernel into a real multi-agent runtime.
+**Goal:** Tool routing, message passing, and scheduling turn AgentVM into a real multi-agent runtime.
 
 **Motto:** *"Make it useful."*
 
@@ -113,7 +113,7 @@
 - [ ] Contract registry — queryable catalog of agent capabilities
 
 #### M2.5 — Configuration (Week 8)
-- [ ] YAML config file support (`agentkernel.yml`)
+- [ ] YAML config file support (`agentvm.yml`)
 - [ ] Environment variable overrides
 - [ ] Config validation on startup
 - [ ] Hot-reload for non-breaking config changes
@@ -128,16 +128,16 @@
 
 ## Phase 3 — Bridge (v0.3.0)
 
-**Goal:** Connect AgentKernel to the broader ecosystem and make it production-aware.
+**Goal:** Connect AgentVM to the broader ecosystem and make it production-aware.
 
 **Motto:** *"Make it connect."*
 
 ### Milestones
 
 #### M3.1 — Framework Adapters (Weeks 1–3)
-- [ ] LangChain adapter — use AgentKernel as LangChain's runtime
-- [ ] CrewAI adapter — CrewAI agents run on AgentKernel processes
-- [ ] AutoGen adapter — AutoGen conversations map to AgentKernel channels
+- [ ] LangChain adapter — use AgentVM as LangChain's runtime
+- [ ] CrewAI adapter — CrewAI agents run on AgentVM processes
+- [ ] AutoGen adapter — AutoGen conversations map to AgentVM channels
 - [ ] Adapter documentation and migration guides
 - [ ] Adapter test suites
 

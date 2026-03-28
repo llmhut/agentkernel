@@ -1,7 +1,7 @@
 import type { MemoryAccessor, MemoryEntry } from '../core/types';
 
 /**
- * MemoryBus — Central memory management for AgentKernel.
+ * MemoryBus — Central memory management for AgentVM.
  *
  * Provides namespaced memory access for agent processes.
  * Each process gets isolated working memory, and can optionally

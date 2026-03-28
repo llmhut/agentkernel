@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We are committed to making participation in AgentKernel a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We are committed to making participation in AgentVM a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ## Our Standards
 

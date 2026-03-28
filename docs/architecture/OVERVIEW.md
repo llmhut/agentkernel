@@ -120,7 +120,7 @@ agent1.publish('updates', data)
 
 ## Event System
 
-Every operation in AgentKernel emits a structured event:
+Every operation in AgentVM emits a structured event:
 
 ```typescript
 interface KernelEvent {

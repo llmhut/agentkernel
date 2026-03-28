@@ -1,5 +1,5 @@
 {
-  "name": "agentkernel",
+  "name": "agentvm",
   "version": "0.1.0-alpha.1",
   "type": "module",
   "description": "The runtime your AI agents deserve. Process management, memory bus, tool routing, message passing, and scheduling for autonomous agents.",
@@ -42,12 +42,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/llmhut/agentkernel"
+    "url": "https://github.com/llmhut/agentvm"
   },
   "bugs": {
-    "url": "https://github.com/llmhut/agentkernel/issues"
+    "url": "https://github.com/llmhut/agentvm/issues"
   },
-  "homepage": "https://github.com/llmhut/agentkernel#readme",
+  "homepage": "https://github.com/llmhut/agentvm#readme",
   "engines": {
     "node": ">=20.0.0"
   },
