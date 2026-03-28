@@ -9,7 +9,7 @@ import type {
 } from './types';
 
 /**
- * Kernel — The AgentKernel runtime.
+ * Kernel — The AgentVM runtime.
  *
  * The Kernel is the central orchestrator. It manages agent registration,
  * process lifecycle, and event dispatch.
@@ -36,7 +36,7 @@ export class Kernel {
   private _processCounter: number;
 
   constructor(config: KernelConfig = {}) {
-    this.name = config.name ?? 'agentkernel';
+    this.name = config.name ?? 'agentvm';
     this._agents = new Map();
     this._processes = new Map();
     this._eventHandlers = new Map();

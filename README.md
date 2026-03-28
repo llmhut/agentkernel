@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔩 AgentKernel
+# 🔩 AgentVM
 
 ### The Runtime Your AI Agents Deserve
 
@@ -22,15 +22,15 @@
 
 Every AI agent framework reinvents the same infrastructure: process lifecycle, memory, tool routing, scheduling, inter-agent messaging. The result? Shallow implementations, incompatible ecosystems, and wasted effort.
 
-**AgentKernel fixes this.** It's the shared runtime layer that sits *beneath* agent frameworks — handling the OS-level concerns so framework developers can focus on what matters: reasoning, planning, and workflow design.
+**AgentVM fixes this.** It's the shared runtime layer that sits *beneath* agent frameworks — handling the OS-level concerns so framework developers can focus on what matters: reasoning, planning, and workflow design.
 
-> Think of it this way: LangChain, CrewAI, and AutoGen are applications. AgentKernel is their operating system.
+> Think of it this way: LangChain, CrewAI, and AutoGen are applications. AgentVM is their operating system.
 
 ---
 
-## Why AgentKernel?
+## Why AgentVM?
 
-| Without AgentKernel | With AgentKernel |
+| Without AgentVM | With AgentVM |
 |---|---|
 | Every framework builds its own process model | Shared, battle-tested process lifecycle |
 | Memory is an afterthought (chat buffers) | First-class memory bus with pluggable backends |
@@ -48,7 +48,7 @@ Every AI agent framework reinvents the same infrastructure: process lifecycle, m
 │                    Your Agent Framework                       │
 │              (LangChain, CrewAI, AutoGen, yours)             │
 ├─────────────────────────────────────────────────────────────┤
-│                      AgentKernel API                         │
+│                      AgentVM API                         │
 ├──────────┬──────────┬──────────┬──────────┬─────────────────┤
 │ Process  │  Memory  │   Tool   │ Message  │    Scheduler    │
 │ Manager  │   Bus    │  Router  │  Broker  │                 │
@@ -77,13 +77,13 @@ Every AI agent framework reinvents the same infrastructure: process lifecycle, m
 ### Installation
 
 ```bash
-npm install agentkernel
+npm install agentvm
 ```
 
 ### Hello World — Your First Agent
 
 ```typescript
-import { Kernel, Agent, Tool } from 'agentkernel';
+import { Kernel, Agent, Tool } from 'agentvm';
 
 // Initialize the kernel
 const kernel = new Kernel();
@@ -114,7 +114,7 @@ await kernel.terminate(process.id);
 ### Multi-Agent Workflow
 
 ```typescript
-import { Kernel, Agent, Pipeline } from 'agentkernel';
+import { Kernel, Agent, Pipeline } from 'agentvm';
 
 const kernel = new Kernel();
 
@@ -151,7 +151,7 @@ console.log(result);
 ### Inter-Agent Messaging
 
 ```typescript
-import { Kernel, Agent, Channel } from 'agentkernel';
+import { Kernel, Agent, Channel } from 'agentvm';
 
 const kernel = new Kernel();
 
@@ -190,7 +190,7 @@ We're building in public. Here's where we're headed:
 - [x] Project scaffolding and repo setup
 - [ ] Agent process model (spawn / pause / resume / kill)
 - [ ] In-memory state management
-- [ ] Basic CLI (`agentkernel start`, `agentkernel ps`, `agentkernel kill`)
+- [ ] Basic CLI (`agentvm start`, `agentvm ps`, `agentvm kill`)
 - [ ] TypeScript SDK with full type safety
 - [ ] Core event system
 - [ ] Unit test framework
@@ -226,7 +226,7 @@ We're building in public. Here's where we're headed:
 ## Project Structure
 
 ```
-agentkernel/
+agentvm/
 ├── src/
 │   ├── core/              # Kernel, Agent, Process primitives
 │   │   ├── kernel.ts      # Main kernel runtime
@@ -269,7 +269,7 @@ agentkernel/
 
 ## Philosophy
 
-**1. Framework-agnostic.** AgentKernel doesn't care what sits on top. LangChain, CrewAI, your custom thing — they all get the same runtime.
+**1. Framework-agnostic.** AgentVM doesn't care what sits on top. LangChain, CrewAI, your custom thing — they all get the same runtime.
 
 **2. Batteries included, not required.** Every module works standalone. Use just the scheduler. Use just the memory bus. Mix and match.
 
@@ -314,10 +314,10 @@ MIT — use it however you want. See [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**AgentKernel is built by the community, for the community.**
+**AgentVM is built by the community, for the community.**
 
 If this project resonates with you, give it a ⭐ and join us in building the foundation of agentic AI.
 
-[⭐ Star on GitHub](https://github.com/llmhut/agentkernel) · [💬 Join Discord](https://discord.gg/m5R88NkM) · [🐦 Follow on X]()
+[⭐ Star on GitHub](https://github.com/llmhut/agentvm) · [💬 Join Discord](https://discord.gg/m5R88NkM) · [🐦 Follow on X]()
 
 </div>

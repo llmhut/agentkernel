@@ -1,5 +1,5 @@
 name: 🐛 Bug Report
-description: Report a bug in AgentKernel
+description: Report a bug in AgentVM
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
@@ -48,7 +48,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: AgentKernel Version
+      label: AgentVM Version
       placeholder: "0.1.0-alpha.1"
     validations:
       required: true

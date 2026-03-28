@@ -1,11 +1,11 @@
 /**
- * AgentKernel — The runtime your AI agents deserve.
+ * AgentVM — The runtime your AI agents deserve.
  *
  * @packageDocumentation
  *
  * @example
  * ```ts
- * import { Kernel, Agent } from 'agentkernel';
+ * import { Kernel, Agent } from 'agentvm';
  *
  * const kernel = new Kernel();
  * const agent = new Agent({ name: 'my-agent' });
@@ -24,7 +24,12 @@ export { Process } from './core/process';
 export { MemoryBus } from './memory/bus';
 
 // Tools
-export { ToolRouter, ToolNotFoundError, ToolExecutionError, ToolRateLimitError } from './tools/router';
+export {
+  ToolRouter,
+  ToolNotFoundError,
+  ToolExecutionError,
+  ToolRateLimitError,
+} from './tools/router';
 
 // Broker
 export { MessageBroker } from './broker/broker';

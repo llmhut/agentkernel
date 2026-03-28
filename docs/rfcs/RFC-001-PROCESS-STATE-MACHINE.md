@@ -2,13 +2,13 @@
 
 > **Status:** accepted
 >
-> **Author:** AgentKernel Core Team
+> **Author:** AgentVM Core Team
 >
 > **Created:** 2026-03-26
 
 ## Summary
 
-Defines the lifecycle states and valid transitions for agent processes in AgentKernel.
+Defines the lifecycle states and valid transitions for agent processes in AgentVM.
 
 ## Motivation
 

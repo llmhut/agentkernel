@@ -1,5 +1,5 @@
 /**
- * AgentKernel — Core Type Definitions
+ * AgentVM — Core Type Definitions
  *
  * All shared types, interfaces, and enums live here.
  * This is the contract that all modules depend on.
